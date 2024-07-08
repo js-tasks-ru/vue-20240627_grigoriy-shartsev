@@ -41,6 +41,11 @@
     "vitest": "^1.6.0",
     "vue-tsc": "^2.0.22"
   },
+  "overrides": {
+    "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
+  },
   "engines": {
     "node": "^20.11.0",
     "npm": ">=10.0.0"
